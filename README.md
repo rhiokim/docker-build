@@ -14,9 +14,9 @@ Require:
 
 ## API
 
-#### `build(name, [options], cb)`
+#### `build(name, targetPath, [options], cb)`
 
-Build `name` image, calling `cb` on completion.
+Build `targetPath` source as `name` image, calling `cb` on completion.
 
 Supported `options`:
   * https://docs.docker.com/engine/reference/commandline/build/
